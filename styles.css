@@ -1,0 +1,43 @@
+html{
+  box-sizing: border-box;
+  height: 100%; 
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container{
+  height: 100%;
+}
+
+.brand-logo{
+  background: url(logo.jpg) no-repeat center center;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.mainHdr{
+  background-color: #222;
+  padding: 25px 0;
+}
+
+.mainHdr h1{
+  font-size: 3em;
+  color: red;
+  margin: 0;
+  text-shadow: 5px 3px 2px #000;
+}
+
+footer{
+  background-color: #444;
+  color: #fff;
+  padding: 25px 0;
+}
