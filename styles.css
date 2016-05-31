@@ -15,12 +15,14 @@ body{
 
 .container{
   height: 100%;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .brand-logo{
   background: url(logo.jpg) no-repeat center center;
   width: auto;
-  height: 250px;
+  height: 300px;
 }
 
 .mainHdr{
@@ -35,7 +37,56 @@ body{
   text-shadow: 5px 3px 2px #000;
 }
 
+.opt-in{
+  margin-top: 100px;
+}
+
+.opt-in span{
+  width: 50%;
+  float: left;
+}
+
+.login-form{
+  width: 50%;
+  margin-top: 50px;
+  float: left;
+}
+
+.login-form input{
+  display: inline-block;
+  padding: 15px;
+  width: 100%;
+  font-size: 1.10em;
+  margin: 0 auto 25px auto;
+}
+
+.login-form .name{
+  width: 45%;
+}
+
+.login-form .name:nth-child(1){
+  float: left;
+}
+
+.login-form .name:nth-child(2){
+  float: right;
+}
+
+.login-form .btn{
+  width: 50%;
+  padding: 10px;
+  background-color: red;
+  font-size: 1.25em;
+  border: none;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: maroon;
+}
+
 footer{
+  clear: both;
   background-color: #444;
   color: #fff;
   padding: 25px 0;
