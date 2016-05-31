@@ -3,7 +3,7 @@ var app = angular.module('mainApp', []);
 app.directive('optIn', function() {
   return {
     restrict: 'E',
-    transculde: true,
+    transclude: true,
     templateUrl: 'login.html',
     replace: true
   };

@@ -19,9 +19,8 @@ body{
 
 .brand-logo{
   background: url(logo.jpg) no-repeat center center;
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  height: 250px;
 }
 
 .mainHdr{
